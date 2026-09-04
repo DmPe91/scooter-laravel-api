@@ -25,4 +25,10 @@ class Product extends Model
     {
         return $this->belongsTo(Condition::class);
     }
+
+    public function baskets()
+    {
+    return $this->belongsToMany(Basket::class, 'basket_products')
+                ->withPivot('quantity');
+    }
 }

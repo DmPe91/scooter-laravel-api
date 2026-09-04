@@ -11,4 +11,9 @@ class ProductController extends Controller
     {
         return Product::with(['type', 'condition'])->get();
     }
+     // Один товар
+    public function show($id)
+    {
+        return Product::with(['type', 'condition'])->findOrFail($id);
+    }
 }
