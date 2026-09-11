@@ -6,7 +6,7 @@ REST API для интернет-магазина электротранспор
 ## 🛠 Стек
 
 - PHP 8.3
-- Laravel 11
+- Laravel 13
 - PostgreSQL (Neon) — продакшен
 - MySQL / MariaDB — локальная разработка
 - Eloquent ORM
