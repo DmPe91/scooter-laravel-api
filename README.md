@@ -27,3 +27,8 @@ cd scooter-laravel-api
 composer install
 cp .env.example .env
 php artisan key:generate
+```
+
+## Связанный репозиторий
+
+Фронтенд: [scooter-vue-client](https://github.com/DmPe91/scooter-vue-client)
